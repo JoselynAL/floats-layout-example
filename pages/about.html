@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main.css">
+    <title>About Page</title>
+</head>
+<body>
+    <nav>
+        <a href="#">
+            <picture>
+                <!-- SVG version for all scenarios due to scalability and efficiency -->
+                <source srcset="../assets/logo/ECO_logo.svg" type="image/svg+xml" />
+                <!-- High resolution PNG for large screens -->
+                <source srcset="../assets/logo/ECO_logo_big.png" media="(min-width: 1024px)" type="image/png" />
+                <!-- Small PNG for medium screens -->
+                <source srcset="../assets/logo/ECO_logo_small.png" media="(min-width: 768px)" type="image/png" />
+                <!-- High resolution JPG for small screens (lower priority than PNG) -->
+                <source srcset="../assets/logo/ECO_logo_big.jpg" media="(min-width: 480px)" type="image/jpg" />
+                <!-- Fallback small JPG for all other scenarios or if none of the above are supported -->
+                <img src="../assets/logo/ECO_logo_small.jpg" alt="ECO company logo">
+            </picture>
+        </a>
+        <span class="spacer"></span>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#" id="current-page">About</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li id="last-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="h1A">About Page</h1>
+    </header>
+
+    <!--Main-->
+    <main class="main">
+        <!--Picture 2-->
+        <a href="#">
+            <picture class="aboutP">
+                <!-- SVG version for all scenarios due to scalability and efficiency -->
+                <source srcset="../assets/logo/ECO_logo.svg" type="image/svg+xml" />
+                <!-- High resolution PNG for large screens -->
+                <source srcset="../assets/logo/ECO_logo_big.png" media="(min-width: 1024px)" type="image/png" />
+                <!-- Small PNG for medium screens -->
+                <source srcset="../assets/logo/ECO_logo_small.png" media="(min-width: 768px)" type="image/png" />
+                <!-- High resolution JPG for small screens (lower priority than PNG) -->
+                <source srcset="../assets/logo/ECO_logo_big.jpg" media="(min-width: 480px)" type="image/jpg" />
+                <!-- Fallback small JPG for all other scenarios or if none of the above are supported -->
+                <img src="../assets/logo/ECO_logo_small.jpg" alt="ECO company logo">
+            </picture>
+        </a>
+
+        <!-- Parragraphs-->
+         <p class="parragraphA1">The systematic study of the past. As an academic discipline, it analyzes and interprets evidence to construct narratives about what happened and explain why it happened, focusing primarily on the human past. Some theorists categorize history as a social science, while others see it as part of the humanities or consider it a hybrid discipline. Similar debates surround the purpose of history, for example, whether its main aim is theoretical, to uncover the truth, or practical, to learn lessons from the past. In a slightly different sense, the term history refers not to an academic field but to the past itself or to individual texts about the past.</p>
+         <p class="parragraphA2">A broad discipline encompassing many branches. Some focus on specific time periods, such as ancient history, while others concentrate on particular geographic regions, such as the history of Africa. Thematic categorizations include political history, social history, and economic history. Branches associated with specific research methods are quantitative history.</p>
+    
+        </main>
+
+    <!-- Footer Barra Interior -->
+    <footer class="footer">
+
+        <div class="footer-section">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Cookies</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 My Webside</p>
+        </div>
+        </footer>
+</body>
+</html>

@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+nav {
+    padding: 32px 32px;
+    min-height: 80px;
+    background: #1f1f1f;
+}
+
+nav > a {
+    vertical-align: bottom;
+}
+
+nav img {
+    max-height: 48px;
+    background-color: white;
+}
+
+nav ul,
+nav ul li,
+.spacer {
+    display: inline-block;
+}
+
+.spacer {
+    /* Parent width - Logo width - Menu <ul> width */
+    width: calc(100% - 132px - 276px);
+}
+
+nav ul {
+    margin-bottom: 15px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+#last-item {
+    margin-right: 0px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(229, 145, 0);
+}
+
+nav ul li a:active {
+    color: rgb(92, 229, 0);
+}
+
+#current-page {
+    color: aquamarine;
+}
+
+/* Main */
+.h1A {
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    justify-content: center;
+    padding: 15px;
+    margin-right: 250px;
+
+}
+
+.h1S {
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 20px;
+}
+
+/* Picture 2 About */
+.aboutP {
+    float: left;
+
+}
+
+.servicesP {
+    float: right;
+}
+
+.contactP1 {
+    float: left;
+}
+
+.contactP2 {
+    float: right;
+
+}
+/* Paarragraphs About*/
+
+.parragraphA1 {
+    text-align: justify;
+    font-size: 22px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.parragraphA2 {
+    text-align: justify;
+    font-size: 22px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Paarragraphs Services*/
+
+.parragraphS1 {
+    text-align: justify;
+    font-size: 22px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.parragraphS2 {
+    text-align: justify;
+    font-size: 22px;
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Paarragraphs Content*/
+
+.parragraphC1 {
+    text-align: justify;
+    font-size: 22px;
+    margin: 20px;
+    top: 100px;
+    padding: 10px;
+    clear: both;
+}
+
+
+/* footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    border-bottom: 0.5px solid white;
+    padding-bottom: 15px;
+    width: 90%;
+    
+}
+
+.footer-section ul li a {
+    color: skyblue;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.footer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+}
+
+.footer-section h3 {
+    font-size: 13px;
+}
+
+.footer-section ul li a {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.footer-bottom p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.footer-bottom {
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
+
